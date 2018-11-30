@@ -1,0 +1,92 @@
+.leaderboard-table-title {
+  color: #066b98;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1.4em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+  margin: 20px auto;
+  max-width: 100px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+.card-header {
+  padding-top: 1.53rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+  background-color: #ffffff;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.92rem 2.3rem;
+}
+
+@media (max-width: 599px ) {
+  .card-body {
+  padding: 1.92rem 1rem;
+  }
+
+}
+
+.table {
+  width: 100%;
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  clear: both;
+  background-color: transparent;
+      border-collapse: collapse;
+}
+
+.simple-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+  border-radius: 4px 4px 0 0;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+th {
+  text-align: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    max-width: 100px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    padding: .75rem;
+}
+
+.table td,.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    max-width: 100px;
+}

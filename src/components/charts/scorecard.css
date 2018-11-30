@@ -1,0 +1,26 @@
+.scorecard {
+  padding: 1.15rem 2.3rem 1.53rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.chart {
+  height: 100%;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.amount {
+  font-size: 2.76em;
+  color: #434c54;
+  margin-bottom: .1em;
+}
+
+.title {
+  color: #005B8F;
+  text-transform: uppercase;
+  font-weight: bold;
+}

@@ -1,0 +1,63 @@
+
+.plus-btn-pos {
+  float: right;
+  top: 30px;
+  margin: 1em 1em;
+}
+
+.plus-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  z-index: 10;
+  background:#0A93EB;
+  position: relative;
+  transition: background .25s ease-out;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  cursor:pointer;
+}
+ .plus-btn div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 3px;
+    background: rgba(255, 255, 2555, 1);
+    transition: transform 0.3s;
+    transition-delay: 0.5s;
+  }
+
+ .plus-btn .r1{
+    transform: translateX(-50%)translateY(300%)rotate(-180deg); 
+            width: 20px;
+    height: 2px;
+  }
+
+.plus-btn .r2{
+    transform: translateX(0%)translateY(0%)rotate(-180deg);
+    width: 10px;
+    height: 2px;
+  }
+  .plus-btn .r3{
+    transform: translateX(-50%)translateY(-350%)rotate(-180deg);
+        width: 20px;
+    height: 2px;
+  }
+  
+ .plus-btn:hover {      
+   background: #066b98;
+  }
+
+   .plus-btn:focus .div {      
+   background: #066b98;
+   outline: 1;
+  }
+  
+
+ .plus-btn:hover .div{
+      background: #0A93EB;
+    }
+  
+   .plus-btn:active{
+      box-shadow: none;
+  }

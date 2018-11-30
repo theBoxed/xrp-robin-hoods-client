@@ -1,0 +1,20 @@
+
+Todo:
+  ☐ Setup automatic data pull
+  ☐ Usability/Accessibility
+  ☐ Testing
+  ☐ Mobile Menu z-index issue
+  ☐ Mobile ? module sizing
+
+Next Steps:
+  ☐ Setup ability to tip people on the leaderboard https://www.xrptipbot.com/account/embed
+  ☐ Style LeaderBoard Table
+  ☐ Review Redux Implementation https://medium.freecodecamp.org/the-best-way-to-architect-your-redux-app-ad9bd16c8e2d
+  ☐ Update backend to separate queries from my routes.
+  ☐ Lazy loading of the page and caching
+
+
+Priority - Client:
+
+
+  

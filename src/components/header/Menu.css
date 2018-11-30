@@ -1,0 +1,39 @@
+#flyoutMenu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+  overflow: scroll;
+  z-index: 1000;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+#flyoutMenu.hide {
+  transform: translate3d(200vw, 0, 0);
+}
+
+#flyoutMenu.show {
+  transform: translate3d(0vw, 0, 0);
+  -webkit-transform: translate3d(0,0,0);
+  overflow: hidden;
+  text-align: center;
+}
+
+#flyoutMenu h2 a {
+  color: #066b98;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+#flyoutMenu h2 a:hover {
+  text-decoration: underline;
+}
+
+#flyoutMenu h1 {
+  padding-bottom: 30px;
+  margin-left: 15px;
+}

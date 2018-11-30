@@ -1,0 +1,47 @@
+
+
+header {
+	display: block;
+	width: 100%;
+  height: 80px;
+  	overflow: hidden;
+	background-color: #ffffff;
+	border-bottom: 1px solid #0a93eb;
+  z-index: 1;
+  -webkit-box-shadow: 0 2px 2px -2px rgba(0,170,228,.15);
+  box-shadow: 0 2px 2px -2px rgba(0,170,228,.15);
+  z-index: 1000;
+}
+
+.navContainer {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+  height: 80px;
+  width: 150px;
+  color: #ffffff;
+  float: left;
+  padding-left: 2.3rem;
+}
+
+.logoContainer {
+  height: 75px;
+  width:75px;
+  padding: 9px 20px 0 0;
+}
+
+.logoContainer img {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-buttons {
+	float: right;
+}
+
+
+
+
