@@ -1,6 +1,7 @@
 import React from 'react';
 import MenuButton from '../buttons/MenuButton';
 import Menu from './menu';
+import { BrowserRouter as Link } from 'react-router-dom';
 import Modal from '../modal/Modal';
 import './MenuContainer.css';
 
@@ -29,16 +30,14 @@ export default class App extends React.Component {
 
   render() {
     return (
-
-        <nav role="navigation">
-          <Modal />
-          <MenuButton handleMouseDown={this.handleMouseDown} />
-          <Menu
+      <nav role="navigation">
+        <Modal />
+        <MenuButton handleMouseDown={this.handleMouseDown} />
+          {/* <Menu
             handleMouseDown={this.handleMouseDown}
             menuVisibility={this.state.visible}
-          />
-        </nav>
-
+          /> */}
+      </nav>
     );
   }
 }
