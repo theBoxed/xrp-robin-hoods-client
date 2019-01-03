@@ -3,6 +3,7 @@ import Scorecard from '../components/charts/Scorecard';
 import LeaderBoardPromo from '../components/charts/leaderboardPromo';
 import Title from '../components/sectionTitles/title';
 
+
 export default function App(props) {
   return (
     <div className="layout">

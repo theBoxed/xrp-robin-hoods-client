@@ -1,9 +1,8 @@
-//TODO: Load up css
 import React from 'react';
 import LeaderBoardPromo from '../components/charts/leaderboardPromo';
 import Title from '../components/sectionTitles/title';
 import LeaderboardTable from '../components/charts/leaderboardTable';
-// import './leaderboard.css';
+
 
 export default function App(props) {
   return (
